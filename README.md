@@ -4,7 +4,7 @@ betterhtml is a JS library that allows developers to build html documents as JS 
 
 ## Documentation
 
-### class Element()
+### class Element(name, content, attributes)
 
 ```js
 Element(name, content, attributes)
@@ -46,7 +46,7 @@ The querySelector method of a betterhtml element returns the first element insid
 ### class Ball(name, attributes)
 
 ```js
-Ball()
+Ball(name, attributes)
 ```
 
 #### Attributes
